@@ -1,0 +1,117 @@
+{
+  "gameName": "Forbidden Archipelago",
+  "globalSettings": {
+    "gravity": 0.62,
+    "canvasWidth": 1280,
+    "canvasHeight": 720
+  },
+  "levels": [
+    {
+      "id": 1,
+      "name": "Foret Luminescente",
+      "islandArt": "island_01",
+      "themeColor": "#0a1d37",
+      "assets": {
+        "background": "level_forest"
+      },
+      "dimensions": { "width": 3000, "height": 720 },
+      "spawnPoint": { "x": 100, "y": 500 },
+      "platforms": [
+        { "id": "g1", "type": "solid_ground", "x": 0, "y": 620, "width": 3000, "height": 100 },
+        { "id": "p1", "type": "floating", "x": 420, "y": 470, "width": 200, "height": 24 },
+        { "id": "p2", "type": "floating", "x": 760, "y": 380, "width": 240, "height": 24 },
+        { "id": "p3", "type": "floating", "x": 1150, "y": 480, "width": 200, "height": 24 },
+        { "id": "p4", "type": "floating", "x": 1900, "y": 420, "width": 260, "height": 24 }
+      ],
+      "decorations": [
+        { "type": "firefly_spawner", "x": 200, "y": 300, "parallaxFactor": 0.4 },
+        { "type": "glowing_tree", "x": 1200, "y": 320, "parallaxFactor": 0.5 },
+        { "type": "glowing_tree", "x": 2400, "y": 300, "parallaxFactor": 0.5 }
+      ],
+      "enemies": [
+        { "id": "e1_1", "type": "dragon_man", "x": 900, "y": 540, "patrolRange": 150, "hp": 140, "damage": 16 },
+        { "id": "e1_2", "type": "zombie", "x": 1600, "y": 540, "patrolRange": 220, "hp": 90, "damage": 12 }
+      ],
+      "log": ["Dragon-Man challenges you!", "Zombie approaches!", "Ready for fight!"]
+    },
+    {
+      "id": 2,
+      "name": "Ruines du Temple",
+      "islandArt": "island_03",
+      "themeColor": "#ffb6c1",
+      "assets": {
+        "background": "level_temple"
+      },
+      "dimensions": { "width": 2400, "height": 900 },
+      "spawnPoint": { "x": 150, "y": 700 },
+      "platforms": [
+        { "id": "g2", "type": "solid_ground", "x": 0, "y": 820, "width": 2400, "height": 80 },
+        { "id": "p5", "type": "brick_wall_left", "x": 0, "y": 560, "width": 260, "height": 260 },
+        { "id": "p6", "type": "ruin_ledge", "x": 420, "y": 660, "width": 300, "height": 28 },
+        { "id": "p7", "type": "ruin_ledge", "x": 900, "y": 560, "width": 260, "height": 28 },
+        { "id": "p8", "type": "ruin_ledge", "x": 1400, "y": 680, "width": 320, "height": 28 }
+      ],
+      "decorations": [
+        { "type": "ancient_statue", "x": 220, "y": 520, "parallaxFactor": 0.3 },
+        { "type": "hanging_vines", "x": 600, "y": 0, "parallaxFactor": 0.6 }
+      ],
+      "enemies": [
+        { "id": "e2_1", "type": "dragon_man", "x": 1000, "y": 500, "patrolRange": 120, "hp": 180, "damage": 20 },
+        { "id": "e2_2", "type": "other", "x": 1700, "y": 700, "patrolRange": 60, "hp": 40, "damage": 8, "label": "Cursed Wisp" }
+      ],
+      "log": ["The temple guardians stir...", "Dragon-Man challenges you!", "Ready for fight!"]
+    },
+    {
+      "id": 3,
+      "name": "Canalisations Royales",
+      "islandArt": "island_05",
+      "themeColor": "#4a3c31",
+      "assets": {
+        "background": "level_waterways"
+      },
+      "dimensions": { "width": 2200, "height": 720 },
+      "spawnPoint": { "x": 100, "y": 550 },
+      "platforms": [
+        { "id": "g3", "type": "waterways_floor", "x": 0, "y": 640, "width": 2200, "height": 80 },
+        { "id": "p9", "type": "floating", "x": 700, "y": 480, "width": 220, "height": 24 },
+        { "id": "p10", "type": "floating", "x": 1300, "y": 420, "width": 220, "height": 24 }
+      ],
+      "decorations": [
+        { "type": "water_fountain", "x": 600, "y": 300, "parallaxFactor": 0.4 },
+        { "type": "glowing_spores", "x": 1200, "y": 600, "parallaxFactor": 0.5 }
+      ],
+      "enemies": [
+        { "id": "e3_1", "type": "zombie", "x": 900, "y": 560, "patrolRange": 100, "hp": 110, "damage": 14 },
+        { "id": "e3_2", "type": "zombie", "x": 1500, "y": 560, "patrolRange": 140, "hp": 110, "damage": 14 },
+        { "id": "e3_3", "type": "other", "x": 1900, "y": 560, "patrolRange": 40, "hp": 30, "damage": 6, "label": "Acid Slug" }
+      ],
+      "log": ["Zombie approaches!", "Something acidic drips nearby...", "Ready for fight!"]
+    },
+    {
+      "id": 4,
+      "name": "Crete Interdite",
+      "islandArt": "island_06",
+      "themeColor": "#301018",
+      "assets": {
+        "background": "level_extra"
+      },
+      "dimensions": { "width": 2600, "height": 800 },
+      "spawnPoint": { "x": 120, "y": 560 },
+      "platforms": [
+        { "id": "g4", "type": "solid_ground", "x": 0, "y": 700, "width": 2600, "height": 100 },
+        { "id": "p11", "type": "floating", "x": 500, "y": 560, "width": 220, "height": 24 },
+        { "id": "p12", "type": "floating", "x": 1000, "y": 460, "width": 220, "height": 24 },
+        { "id": "p13", "type": "floating", "x": 1550, "y": 560, "width": 220, "height": 24 },
+        { "id": "p14", "type": "floating", "x": 2050, "y": 460, "width": 260, "height": 24 }
+      ],
+      "decorations": [
+        { "type": "ember_vents", "x": 900, "y": 680, "parallaxFactor": 0.3 }
+      ],
+      "enemies": [
+        { "id": "e4_1", "type": "dragon_man", "x": 1200, "y": 640, "patrolRange": 200, "hp": 220, "damage": 26, "boss": true },
+        { "id": "e4_2", "type": "zombie", "x": 1900, "y": 640, "patrolRange": 180, "hp": 130, "damage": 18 }
+      ],
+      "log": ["A boss Dragon-Man blocks the ridge!", "Zombie approaches!", "Ready for fight!"]
+    }
+  ]
+}
