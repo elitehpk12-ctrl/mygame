@@ -67,11 +67,11 @@ export const BACKGROUND_ART = {
 };
 
 export const WORLDMAP_ART = {
-  island_01,
-  island_02,
-  island_03,
-  island_04,
-  island_05,
-  island_06,
-  island_07,
+  island_01: island01,
+  island_02: island02,
+  island_03: island03,
+  island_04: island04,
+  island_05: island05,
+  island_06: island06,
+  island_07: island07,
 };
